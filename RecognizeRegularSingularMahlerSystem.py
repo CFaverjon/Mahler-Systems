@@ -5,7 +5,6 @@ Spyder Editor
 This is a temporary script file.
 """
 
-
 # This is an implementation of the Algorithm 3 in the paper 
 # "An algorithm to recognize regular singular Mahler systems" of Faverjon and Poulet.
 # A Mahler system is a pair (A,p) where A is a matrix whose entries are rational functions and p is an integer.
@@ -45,7 +44,7 @@ def main_cyclic_vector_algo(A,p):
     return last_row_comp
 
 
-#########################################################################################################
+###############################################################################################################
 from sympy import *
 z = symbols('z')
 
